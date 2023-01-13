@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/',function(req,res){
-    res.send("Acesso Permitido")
+    res.send("Acessado")
 })
 
 app.listen(3000,function(){
